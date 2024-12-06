@@ -1,0 +1,10 @@
+
+if(c =>100){ 
+    document.getElementById('audio').src = 'Victory Sound Effect.mp4'
+    document.getElementById('text').innerHTML = "can you give me 100 pls (•_•)"
+    Set(
+        document.getElementById('text').innerHTML =   
+    )
+}
+ else{document.getElementById('text').innerHTML = ""}  
+
