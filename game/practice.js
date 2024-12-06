@@ -1,5 +1,5 @@
 var mone= localStorage.getItem("score456566")
-let c= Number(localStorage.getItem("score456566").pars)
+let c= Number(localStorage.getItem("score456566"))
 console.log(c)
     
 
@@ -8,7 +8,7 @@ var m = 0
 console.log(m);
 
 function first(){
-    c += m+=1
+    c = m+=1
     console.log(c)
     document.getElementById('txt').innerHTML = c
     document.getElementById('audio').src = 'MONEY SOUND EFFECT !!.mp4'
@@ -132,33 +132,4 @@ console.log(c)
 function ch () {
 
     localStorage.setItem('score456566',c)
-    if (c>1000) 
-        return chg ()
 }
-function chg () {
-    document.getElementById('toto').innerHTML = "perfect"
-toto()
-    
-}
-function set() {
-    c=mone
-}
-console.log(mone);
- set()
-
-
-
-// function code() {
-//     var rf = Number(document.getElementById("rf").value)
-// if (rf=4565660) {
-//     var txt = 987987896978968
-//     document.getElementById('txt').innerHTML = c
-//     document.getElementById('audio').src = 'Are You Cheating - Sound Effect (1).mp4'
-// }
-// }
-
-
-// function toto() {
-// document.getElementsByClassName('per').style.visiablty=visible
-// .per.style.visibility="visible"
-// }
