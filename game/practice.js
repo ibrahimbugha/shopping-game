@@ -130,3 +130,5 @@ function ch () {
 
     localStorage.setItem('score456566',userMoney)
 }
+
+// هيك زبط ؟
