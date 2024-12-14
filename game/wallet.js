@@ -7,7 +7,7 @@ function submitEntry() {
     }
 
     // URL of your deployed Google Apps Script Web App (replace with your actual URL)
-    var url = 'https://script.google.com/macros/s/AKfycbwhRwdQIAODJA48p3DeskbuzLw1XQTUdgaT9yZ4F6UdAFfkJDdRfx2YiAMvIqQ1DG5N/exec';
+    var url = 'https://script.google.com/macros/s/AKfycbwO5EoytdANNTI3jJn1IZjA5vYIptvQgXqsdRem3lOWfdtgWEMnVezMrlgCq81VlO9Q/exec';
 
     // Send the data to the Google Apps Script Web App via a POST request
     fetch(url, {
