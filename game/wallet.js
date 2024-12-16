@@ -1,7 +1,7 @@
 function submitEntry() {
     var username = document.getElementById('myTextField').value;
     var userMoney = localStorage.getItem("score456566")
-    if (textValue.trim() === "") {
+    if (username.trim() === "") {
         alert("Please enter some text.");
         return;
     }
