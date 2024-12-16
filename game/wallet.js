@@ -7,13 +7,14 @@ function submitEntry() {
     }
 
     // URL of your deployed Google Apps Script Web App (replace with your actual URL)
-    var url = 'https://script.google.com/macros/s/AKfycbw82N-4iZQFNO0AHaS5lAequ5spDlpovI7Bx5wg0RTr2aDF9EoPhR-RgcFZq1vRiC92/exec';
+    var url = 'https://script.google.com/macros/s/AKfycbxE6t81imkAx8Ly6BVJxxppR-fY03f0e6Mvz4RnXKVOKJdcsqFwzfwq6SnTR8mjDC9l/exec';
 
     // Send the data to the Google Apps Script Web App via a POST request
     fetch(url, {
         method: 'POST',
         body: new URLSearchParams({
-            'entry': userMoney
+            'entry': userMoney ;
+            'name': textValue
         }),
         headers: {
             'Content-Type': 'application/x-www-form-urlencoded',
