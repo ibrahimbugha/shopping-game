@@ -1,5 +1,5 @@
 function submitEntry() {
-    var textValue = document.getElementById('myTextField').value;
+    var username = document.getElementById('myTextField').value;
     var userMoney = localStorage.getItem("score456566")
     if (textValue.trim() === "") {
         alert("Please enter some text.");
@@ -13,8 +13,8 @@ function submitEntry() {
     fetch(url, {
         method: 'POST',
         body: new URLSearchParams({
-            'entry': userMoney ;
-            'name': textValue
+            'entry': userMoney ,
+            'username': username
         }),
         headers: {
             'Content-Type': 'application/x-www-form-urlencoded',
