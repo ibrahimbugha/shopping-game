@@ -28,4 +28,5 @@ function submitEntry() {
         document.getElementById('responseMessage').innerText = "An error occurred.";
         console.error('Error:', error);
     });
-}
+}    
+//ll
