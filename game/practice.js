@@ -149,7 +149,7 @@ ch()
 
 // دالة لعرض لوحة النتائج
 function loadLeaderboard() {
-    fetch('https://script.google.com/macros/s/AKfycbzwKz5qp7y2fm7H9iAeBTSW454B-RZ48IeOW4a-2cuf5qqqHBtHIR9gygkOYBqq6PHb/exec')
+    fetch('https://script.google.com/macros/s/AKfycbz-7o3vH9-yRpXXPGZ5yLMfLEvMAM4U_hru5yS4HpEl3OwyWnBAh2BeI8hUTxuvS2Qw/exec')
       .then(response => response.json())
       .then(data => {
         const leaderboard = document.getElementById('leaderboard');
@@ -165,7 +165,7 @@ function loadLeaderboard() {
   
   // دالة لتحديث الرصيد في Google Sheets
   function updateScore(username, score) {
-    fetch('https://script.google.com/macros/s/AKfycbzwKz5qp7y2fm7H9iAeBTSW454B-RZ48IeOW4a-2cuf5qqqHBtHIR9gygkOYBqq6PHb/exec', {
+    fetch('https://script.google.com/macros/s/AKfycbz-7o3vH9-yRpXXPGZ5yLMfLEvMAM4U_hru5yS4HpEl3OwyWnBAh2BeI8hUTxuvS2Qw/exec', {
       method: 'POST',
       body: new URLSearchParams({
         'username': username,
