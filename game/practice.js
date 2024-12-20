@@ -132,7 +132,7 @@ function ch () {
 }
 function checkCode() {
     var enteredCode = document.getElementById('secretCode').value;
-    var correctCode = "ibrahimismyfriend";  // Define your correct code here
+    var correctCode = "ibrahimistheking";  // Define your correct code here
 
     if (enteredCode === correctCode) {
         var txt = userMoney+=1000
@@ -141,7 +141,7 @@ ch()
     document.getElementById('audio').src = 'Victory Sound Effect.mp4'
     } else {
     document.getElementById('audio').src = 'Are You Cheating - Sound Effect (1).mp4'
-    var txt = userMoney-=100000000
+    var txt = userMoney-=500
     document.getElementById('txt').innerHTML = userMoney
     ch ()
     }
