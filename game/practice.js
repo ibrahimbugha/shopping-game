@@ -127,12 +127,11 @@ console.log(userMoney)
 }
 
 function ch () {
-
     localStorage.setItem('score456566',userMoney)
 }
 function checkCode() {
     var enteredCode = document.getElementById('secretCode').value;
-    var correctCode = "ibrahimistheking";  // Define your correct code here
+    var correctCode = "ibrahimistheking";  
 
     if (enteredCode === correctCode) {
         var txt = userMoney+=1000
